@@ -1,4 +1,4 @@
-![Hire-me-Knowledge](https://your-image-link-here.com/banner.png)
+![Hire-me-Knowledge](https://i.imgur.com/aP9Azdn.png)
 
 <h1 align="center">🚀 Hire-me-Knowledge 🚀</h1>
 
