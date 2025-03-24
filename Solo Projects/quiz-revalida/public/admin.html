@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel de Administração</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="admin-container">
+    <h1>📂 Painel de Administração</h1>
+
+    <!-- Adicionar Categoria -->
+    <form id="add-category-form">
+      <h2>Adicionar Categoria</h2>
+      <input type="text" id="category-name" placeholder="Nome da Categoria" required>
+      <button type="submit" class="btn">Adicionar Categoria</button>
+    </form>
+
+    <!-- Adicionar Pergunta -->
+    <form id="add-question-form">
+      <h2>Adicionar Pergunta</h2>
+      <input type="text" id="question-text" placeholder="Texto da Pergunta" required>
+      <select id="question-category" required>
+        <option value="">Selecione uma Categoria</option>
+      </select>
+      <input type="text" id="option1" placeholder="Opção 1" required>
+      <input type="text" id="option2" placeholder="Opção 2" required>
+      <input type="text" id="option3" placeholder="Opção 3" required>
+      <input type="text" id="option4" placeholder="Opção 4" required>
+      <input type="text" id="correct-answer" placeholder="Resposta Correta" required>
+      <button type="submit" class="btn">Adicionar Pergunta</button>
+    </form>
+
+    <!-- Lista de Categorias -->
+    <h2>Categorias Existentes</h2>
+    <ul id="category-list"></ul>
+
+    <!-- Lista de Perguntas -->
+    <h2>Perguntas Existentes</h2>
+    <ul id="question-list"></ul>
+  </div>
+
+  <script>
+    // Dados (Armazenamento Local)
+    let categories = JSON.parse(localStorage.getItem('categories')) || [];
+    let questions = JSON.parse(localStorage.getItem('questions')) || [];
+
+    // Função para Renderizar Categorias
+    function renderCategories() {
+      const categoryList = document.getElementById('category-list');
+      categoryList.innerHTML = categories.map(category => `
+        <li>
+          <span>${category}</span>
+          <button onclick="deleteCategory('${category}')">🗑️ Excluir</button>
+        </li>
+      `).join('');
+    }
+
+    // Função para Renderizar Perguntas
+    function renderQuestions() {
+      const questionList = document.getElementById('question-list');
+      questionList.innerHTML = questions.map(question => `
+        <li>
+          <strong>${question.question}</strong> (${question.category})
+          <button onclick="deleteQuestion(${question.id})">🗑️ Excluir</button>
+        </li>
+      `).join('');
+    }
+
+    // Adicionar Categoria
+    document.getElementById('add-category-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const categoryName = document.getElementById('category-name').value.trim();
+      if (categoryName && !categories.includes(categoryName)) {
+        categories.push(categoryName);
+        localStorage.setItem('categories', JSON.stringify(categories));
+        renderCategories();
+        document.getElementById('category-name').value = '';
+      }
+    });
+
+    // Adicionar Pergunta
+    document.getElementById('add-question-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const newQuestion = {
+        id: questions.length + 1,
+        category: document.getElementById('question-category').value,
+        question: document.getElementById('question-text').value,
+        options: [
+          document.getElementById('option1').value,
+          document.getElementById('option2').value,
+          document.getElementById('option3').value,
+          document.getElementById('option4').value
+        ],
+        answer: document.getElementById('correct-answer').value
+      };
+      questions.push(newQuestion);
+      localStorage.setItem('questions', JSON.stringify(questions));
+      renderQuestions();
+      document.getElementById('add-question-form').reset();
+    });
+
+    // Deletar Categoria
+    function deleteCategory(category) {
+      categories = categories.filter(cat => cat !== category);
+      localStorage.setItem('categories', JSON.stringify(categories));
+      renderCategories();
+    }
+
+    // Deletar Pergunta
+    function deleteQuestion(id) {
+      questions = questions.filter(q => q.id !== id);
+      localStorage.setItem('questions', JSON.stringify(questions));
+      renderQuestions();
+    }
+
+    // Carregar Categorias no Formulário
+    function loadCategories() {
+      const categorySelect = document.getElementById('question-category');
+      categorySelect.innerHTML = '<option value="">Selecione uma Categoria</option>';
+      categories.forEach(category => {
+        categorySelect.innerHTML += `<option value="${category}">${category}</option>`;
+      });
+    }
+
+    // Inicializar
+    renderCategories();
+    renderQuestions();
+    loadCategories();
+  </script>
+</body>
+</html>

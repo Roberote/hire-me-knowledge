@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "question": "Qual é a capital do Brasil?",
+    "options": ["Rio de Janeiro", "Brasília", "São Paulo", "Salvador"],
+    "answer": "Brasília"
+  },
+  {
+    "id": 2,
+    "question": "Quem escreveu 'Dom Quixote'?",
+    "options": ["Machado de Assis", "Miguel de Cervantes", "William Shakespeare", "Fernando Pessoa"],
+    "answer": "Miguel de Cervantes"
+  }
+]

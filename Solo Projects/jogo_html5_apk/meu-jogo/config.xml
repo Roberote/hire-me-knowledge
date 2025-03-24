@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.exemplo.meujogo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>MeuJogo</name>
+    <description>Um jogo HTML5 com integração de landing page.</description>
+    <author email="seuemail@exemplo.com" href="http://exemplo.com">Seu Nome</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <platform name="android">
+    <plugin name="cordova-plugin-inappbrowser" spec="^X.X.X" />
+        <allow-intent href="market:*" />
+    </platform>
+</widget>
