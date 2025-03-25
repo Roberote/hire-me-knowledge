@@ -1,3 +1,4 @@
+<p align="center">
 ![Hire-me-Knowledge](https://i.imgur.com/aP9Azdn.png)
 
 <h1 align="center">🚀 Hire-me-Knowledge 🚀</h1>
