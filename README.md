@@ -9,31 +9,19 @@
 
 <div align="center">
 
-[![🚀 Ir para Skills](https://img.shields.io/badge/🚀-Ir_para_Skills-purple?style=for-the-badge)](#-skills)  
-[![🔍 Ver Projetos](https://img.shields.io/badge/🔍-Ver_Projetos-blue?style=for-the-badge)](#-o-que-voce-vai-encontrar-aqui)  
-[![📖 Estudar Agora](https://img.shields.io/badge/📖-Estudar_Agora-green?style=for-the-badge)](#-como-navegar)  
-[![💼 Contratar](https://img.shields.io/badge/💼-Contratar-red?style=for-the-badge)](#-meus-destaques)  
+[![🇧🇷 Versão em Português](https://img.shields.io/badge/🇧🇷-Versão_PTBR-green?style=for-the-badge)](#-documentação-em-português)  
+[![🇺🇸 English Version](https://img.shields.io/badge/🇺🇸-English_Version-blue?style=for-the-badge)](#-documentation-in-english)
 
 </div>
 
 ---
 
-## 🌍 🗣️ Bem-vindo | Welcome
+## 🇧🇷 Documentação em Português
 
-<details>
-  <summary>🇧🇷 Português</summary>
-  <p>Olá! Esse repositório é o meu tesouro de conhecimento, documentando tudo o que aprendi sobre programação, desde conceitos básicos até projetos avançados!</p>
-</details>
+### 🌍 Bem-vindo
+Olá! Esse repositório é o meu tesouro de conhecimento, documentando tudo o que aprendi sobre programação, desde conceitos básicos até projetos avançados!
 
-<details>
-  <summary>🇺🇸 English</summary>
-  <p>Hello! This repository is my knowledge treasure, documenting everything I've learned about programming, from basic concepts to advanced projects!</p>
-</details>
-
----
-
-## 🌟 Skills
-
+### 🌟 Skills
 ```yaml
 Linguagens:
   - Java ☕
@@ -48,53 +36,14 @@ Tecnologias & Ferramentas:
   - Backend APIs 🔌
 ```
 
----
-
-## ✅ O que você vai encontrar aqui?
+### ✅ O que você vai encontrar aqui?
 - 📂 **Organização por categorias** *(Back-end, Front-end, Full-stack, Ciência de Dados...)*
 - 🔥 **Projetos Open Source** *(Colaborações e contribuições)*
 - 📖 **Anotações e resumos de cursos** *(Java, Python, Web Development...)*
 - 🚀 **Desafios e exercícios resolvidos** *(Codewars, LeetCode, HackerRank...)*
 - 🎨 **Projetos autorais e criativos** *(Sites, aplicações, automações...)*
 
----
-
-## 🎮 Como Navegar
-
-🎭 **Use a interatividade abaixo para escolher seu caminho!**
-
-<details>
-  <summary>🔍 Quer ver projetos específicos?</summary>
-  <ul>
-    <li>📌 <a href="./backend">Projetos Back-end</a></li>
-    <li>🎨 <a href="./frontend">Projetos Front-end</a></li>
-    <li>🌍 <a href="./fullstack">Projetos Full-stack</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>📖 Quer estudar algo?</summary>
-  <ul>
-    <li>🐍 <a href="./python">Curso Python 80h</a></li>
-    <li>☕ <a href="./java">Curso Java Avançado</a></li>
-    <li>🖥️ <a href="./git">Git e Colaboração</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>💼 Quer me contratar? (Do you want to hire me?)</summary>
-  <ul>
-    <li>📩 <strong>Email:</strong> <a href="mailto:seuemail@email.com">seuemail@email.com</a></li>
-    <li>🔗 <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/seu-perfil">linkedin.com/in/seu-perfil</a></li>
-    <li>🌎 <strong>Portfólio:</strong> <a href="https://seu-portfolio.com">seu-portfolio.com</a></li>
-  </ul>
-</details>
-
----
-
-## 🎯 Meus Destaques
-
-🚀 **Repositório de Estudos & Projetos:**
+### 🎯 Meus Destaques
 ```sh
 # Clone o repositório
 $ git clone https://github.com/Roberote/hire-me-knowledge.git
@@ -104,7 +53,6 @@ $ explore 🔥
 
 💡 **Código mais incrível do meu repositório:**
 ```python
-# Contador de tempo do meu primeiro site romântico ❤️
 from datetime import datetime
 
 start_date = datetime(2023, 1, 1)
@@ -114,8 +62,58 @@ diff = now - start_date
 print(f"Já se passaram {diff.days} dias de amor! 💖")
 ```
 
-📌 **Dica para os curiosos:** *Explore os commits antigos para ver minha evolução ao longo do tempo!* 🏆
+[![🇺🇸 Switch to English](https://img.shields.io/badge/🇺🇸-Switch_to_English-blue?style=for-the-badge)](#-documentation-in-english)
 
 ---
 
-<h3 align="center">✨ Obrigado por visitar! ✨</h3>
+## 🇺🇸 Documentation in English
+
+### 🌍 Welcome
+Hello! This repository is my knowledge treasure, documenting everything I've learned about programming, from basic concepts to advanced projects!
+
+### 🌟 Skills
+```yaml
+Languages:
+  - Java ☕
+  - Python 🐍 (80h of study)
+  - JavaScript ✨
+  - HTML5 & CSS3 🎨
+
+Technologies & Tools:
+  - Git & GitHub 🖥️
+  - Open Source Contributions 🌎
+  - Web Development 🏗️
+  - Backend APIs 🔌
+```
+
+### ✅ What will you find here?
+- 📂 **Organized by category** *(Back-end, Front-end, Full-stack, Data Science...)*
+- 🔥 **Open Source Projects** *(Collaborations and contributions)*
+- 📖 **Course notes and summaries** *(Java, Python, Web Development...)*
+- 🚀 **Solved challenges and exercises** *(Codewars, LeetCode, HackerRank...)*
+- 🎨 **Creative personal projects** *(Websites, applications, automations...)*
+
+### 🎯 My Highlights
+```sh
+# Clone the repository
+$ git clone https://github.com/Roberote/hire-me-knowledge.git
+$ cd hire-me-knowledge
+$ explore 🔥
+```
+
+💡 **Coolest code in my repository:**
+```python
+from datetime import datetime
+
+start_date = datetime(2023, 1, 1)
+now = datetime.now()
+diff = now - start_date
+
+print(f"{diff.days} days of love have passed! 💖")
+```
+
+[![🇧🇷 Mudar para Português](https://img.shields.io/badge/🇧🇷-Mudar_para_PTBR-green?style=for-the-badge)](#-documentação-em-português)
+
+---
+
+<h3 align="center">✨ Obrigado por visitar! | Thank you for visiting! ✨</h3>
