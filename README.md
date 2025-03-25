@@ -43,23 +43,12 @@ Tecnologias & Ferramentas:
 - 🚀 **Desafios e exercícios resolvidos** *(Codewars, LeetCode, HackerRank...)*
 - 🎨 **Projetos autorais e criativos** *(Sites, aplicações, automações...)*
 
-### 🎯 Meus Destaques
+### 🎯 Clonar Repositório!
 ```sh
 # Clone o repositório
 $ git clone https://github.com/Roberote/hire-me-knowledge.git
 $ cd hire-me-knowledge
 $ explore 🔥
-```
-
-💡 **Código mais incrível do meu repositório:**
-```python
-from datetime import datetime
-
-start_date = datetime(2023, 1, 1)
-now = datetime.now()
-diff = now - start_date
-
-print(f"Já se passaram {diff.days} dias de amor! 💖")
 ```
 
 [![🇺🇸 Switch to English](https://img.shields.io/badge/🇺🇸-Switch_to_English-blue?style=for-the-badge)](#-documentation-in-english)
@@ -93,7 +82,7 @@ Technologies & Tools:
 - 🚀 **Solved challenges and exercises** *(Codewars, LeetCode, HackerRank...)*
 - 🎨 **Creative personal projects** *(Websites, applications, automations...)*
 
-### 🎯 My Highlights
+### 🎯 Clone Repository!
 ```sh
 # Clone the repository
 $ git clone https://github.com/Roberote/hire-me-knowledge.git
@@ -101,16 +90,6 @@ $ cd hire-me-knowledge
 $ explore 🔥
 ```
 
-💡 **Coolest code in my repository:**
-```python
-from datetime import datetime
-
-start_date = datetime(2023, 1, 1)
-now = datetime.now()
-diff = now - start_date
-
-print(f"{diff.days} days of love have passed! 💖")
-```
 
 [![🇧🇷 Mudar para Português](https://img.shields.io/badge/🇧🇷-Mudar_para_PTBR-green?style=for-the-badge)](#-documentação-em-português)
 
