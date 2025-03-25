@@ -1,7 +1,6 @@
 <p align="center">
- 
-![Hire-me-Knowledge](https://i.imgur.com/aP9Azdn.png)
-
+  <img src="https://i.imgur.com/aP9Azdn.png" alt="Hire-me-Knowledge">
+</p>
 <h1 align="center">🚀 Hire-me-Knowledge 🚀</h1>
 
 <p align="center">
