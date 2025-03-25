@@ -7,12 +7,14 @@
  <strong>Documentação da minha jornada na programação | My programming journey documentation</strong>
 </p>
 
-<p align="center">
-  [![🚀 Ir para Skills](https://img.shields.io/badge/🚀-Ir_para_Skills-purple?style=for-the-badge)](#-skills)
-  [![🔍 Ver Projetos](https://img.shields.io/badge/🔍-Ver_Projetos-blue?style=for-the-badge)](#-o-que-voce-vai-encontrar-aqui)
-  [![📖 Estudar Agora](https://img.shields.io/badge/📖-Estudar_Agora-green?style=for-the-badge)](#-como-navegar)
-  [![💼 Contratar](https://img.shields.io/badge/💼-Contratar-red?style=for-the-badge)](#-meus-destaques)
-</p>
+<div align="center">
+
+[![🚀 Ir para Skills](https://img.shields.io/badge/🚀-Ir_para_Skills-purple?style=for-the-badge)](#-skills)  
+[![🔍 Ver Projetos](https://img.shields.io/badge/🔍-Ver_Projetos-blue?style=for-the-badge)](#-o-que-voce-vai-encontrar-aqui)  
+[![📖 Estudar Agora](https://img.shields.io/badge/📖-Estudar_Agora-green?style=for-the-badge)](#-como-navegar)  
+[![💼 Contratar](https://img.shields.io/badge/💼-Contratar-red?style=for-the-badge)](#-meus-destaques)  
+
+</div>
 
 ---
 
